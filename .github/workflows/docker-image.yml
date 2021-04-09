@@ -1,11 +1,6 @@
 name: Publiher to docker hub
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
+on: [push]
 jobs:
   publiher-docker-image:
     name: Publiher docker image to docker hub
